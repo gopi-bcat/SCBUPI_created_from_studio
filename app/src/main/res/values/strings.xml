@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">SCUPI</string>
+    <string name="splashActivityName">Standard Chartered</string>
+
+    <string name="advText">Enjoy 15% cash back* on the\nStandard Chartered Mumbai Marathon\nregistration fee</string>
+
+    <string name="advText1">Enjoy 15% cash back* on the</string>
+    <string name="advText2">Standard Chartered Mumbai Marathon</string>
+    <string name="advText3">registration fee</string>
+    <string name="logRegExistingUserHeadingText">Existing Standard Chartered Online\nBanking User?</string>
+    <string name="logRegExistingUserSubText">Tap here to login</string>
+    <string name="logRegNewUserHeadingText">Register Here as a New User</string>
+    <string name="logRegNewUserSubText">Sign up &amp; get started</string>
+    <string name="loginActivityHeadingText">Login</string>
+    <string name="ExistingAndNewUserActivityName">Existing or New user</string>
+    <string name="loginBankAccountActivityName">Login to Bank Account</string>
+    <string name="instructionLoginText">Please enter your username and password to proceed</string>
+    <string name="hintUnm">Username</string>
+    <string name="hintPwd">Password</string>
+    <string name="iUnderstand">I understand and accept the</string>
+    <string name="termsOfUse">Terms of Use</string>
+    <string name="buttonLoginText">LOGIN</string>
+    <string name="forgotUnmPwd">Forgot Username/Password?</string>
+    <string name="buttonRegisterDirectlyText">REGISTER DIRECTLY</string>
+    <string name="instructionSocialMediaLoginText">Select an option to register</string>
+    <string name="SocialMediaLoginActivityName">Social Media Login</string>
+    <string name="registerUserDetailsActivityName">User Details</string>
+    <string name="registerDetailsActivityHeadingText">Register</string>
+    <string name="instructionRegisterUserDetailsText">Please fill form below to create your UPI profile</string>
+    <string name="hintFName">First Name</string>
+    <string name="hintLName">Last Name</string>
+    <string name="normalTextViewGenderText">Gender</string>
+    <string name="normalTextViewDOBText">Date of birth</string>
+    <string name="ddmmyyyy">dd mm yyyy</string>
+    <string name="hintLocation">Location</string>
+    <string name="hintEmail">Enter your email address</string>
+    <string name="myMobNoText">My Mobile Number</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="buttonProceedText">Proceed</string>
+</resources>

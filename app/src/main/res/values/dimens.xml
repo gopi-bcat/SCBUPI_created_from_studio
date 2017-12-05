@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="commonTextSize">17sp</dimen>
+    <dimen name="commonActivityLeftPadding">20dp</dimen>
+    <dimen name="commonActivityRightPadding">20dp</dimen>
+    <dimen name="commonLineSpacing">8dp</dimen>
+    <dimen name="buttonPaddingTop">5dp</dimen>
+    <dimen name="buttonPaddingBottom">5dp</dimen>
+
+
+    <dimen name="blackActivityOuterLeftMargin">32dp</dimen>
+    <dimen name="blackActivityOuterRightMargin">32dp</dimen>
+    <dimen name="commonMainInstructionMarginLeft">5dp</dimen>
+    <dimen name="commonMainInstructionMarginRight">5dp</dimen>
+    <dimen name="halfWidthViewMarginRight">10dp</dimen>
+    <dimen name="halfWidthViewMarginLeft">10dp</dimen>
+    <dimen name="commonTextViewPaddingBottom">18dp</dimen>
+    <dimen name="commonVerticalDistanceBetweenTwoViews">25dp</dimen>
+    <dimen name="textIndicatorTextSize">15sp</dimen>
+
+    <!--gopi following is a sample to how to write in this file-->
+    <!--<item name="text_view_padding" type="integer">100</item>-->
+</resources>

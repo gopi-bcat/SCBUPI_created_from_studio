@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activityBackgroundColorWhite"
+    tools:context="com.scbupi.android.login_register.ExistingAndNewUserActivity">
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/login_register_background">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="40dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/commonActivityLeftPadding"
+            android:paddingRight="@dimen/commonActivityRightPadding">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.daimajia.slider.library.SliderLayout
+                    android:id="@+id/slider"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    />
+
+                <com.daimajia.slider.library.Indicators.PagerIndicator
+                    android:id="@+id/pagerIndicator"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_below="@+id/slider"
+                    app:selected_color="@color/sliderIndicatorSelectedColor"
+                    app:unselected_color="@color/sliderIndicatorDefaultColor"
+                    android:gravity="center"
+                    app:selected_height="11dp"
+                    app:selected_width="11dp"
+                    app:unselected_height="11dp"
+                    app:unselected_width="11dp"
+                    />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/commonActivityLeftPadding"
+                android:paddingRight="@dimen/commonActivityRightPadding">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/llExistingUser"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvExistingUserHeading"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/commonTextSize"
+                            android:lineSpacingExtra="@dimen/commonLineSpacing"
+                            android:textColor="@color/logRegExistingUserHeadingTextColor"
+                            android:text="@string/logRegExistingUserHeadingText"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tvExistingUserSubText"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/commonTextSize"
+                                android:gravity="center_vertical"
+                                android:layout_gravity="center_vertical"
+                                android:textColor="@color/logRegExistingUserSubTextColor"
+                                android:text="@string/logRegExistingUserSubText"/>
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="16sp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_gravity="bottom"
+                                android:paddingBottom="2dp"
+                                android:src="@drawable/login_reg_right_arrow"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.1dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@color/logRegSeparatorLineColor"/>
+
+                    <LinearLayout
+                        android:id="@+id/llNewUser"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvNewUserHeading"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/commonTextSize"
+                            android:lineSpacingExtra="8dp"
+                            android:textColor="@color/logRegNewUserHeadingTextColor"
+                            android:text="@string/logRegNewUserHeadingText"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tvNewUserSubText"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/commonTextSize"
+                                android:gravity="center_vertical"
+                                android:layout_gravity="center_vertical"
+                                android:textColor="@color/logRegNewUserSubTextColor"
+                                android:text="@string/logRegNewUserSubText"/>
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="16sp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_gravity="bottom"
+                                android:paddingBottom="2dp"
+                                android:src="@drawable/login_reg_right_arrow"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

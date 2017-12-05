@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="1"
+    android:background="@color/activityBackgroundColorBlack"
+    tools:context="com.scbupi.android.login_register.SocialMediaLoginActivity">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cvSocialLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/blackActivityOuterLeftMargin"
+        android:layout_marginRight="@dimen/blackActivityOuterRightMargin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/activityBackgroundColorWhite">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_alignParentTop="true">
+
+                <TextView
+                    android:id="@+id/tvLoginInstruction"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="25dp"
+                    android:textSize="@dimen/commonTextSize"
+                    android:textColor="@color/instructionTextColor"
+                    android:gravity="center"
+                    android:lineSpacingExtra="@dimen/commonLineSpacing"
+                    android:text="@string/instructionSocialMediaLoginText"/>
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_facebook"/>
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="54dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_google"/>
+
+                <TextView
+                    android:id="@+id/tvOr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginBottom="40dp"
+                    android:text="OR"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnRegisterDirectly"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/commonTextSize"
+                android:paddingTop="@dimen/buttonPaddingTop"
+                android:paddingBottom="@dimen/buttonPaddingBottom"
+                android:background="@color/buttonBackColor"
+                android:text="@string/buttonRegisterDirectlyText"
+                android:textColor="@color/buttonTextColor"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/cvSocialLogin">
+
+        <ImageView
+            android:id="@+id/ivClose"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_cancel"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

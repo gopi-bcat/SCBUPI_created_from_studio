@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#02b8f8</color>
+
+    <color name="statusBarColor">#ffffff</color>
+    <color name="activityBackgroundColorWhite">#ffffff</color>
+    <color name="activityBackgroundColorBlack">#11000000</color>
+    <color name="adTextColor">#ffffff</color>
+    <color name="sliderIndicatorDefaultColor">#919191</color>
+    <color name="sliderIndicatorSelectedColor">#02b8f8</color>
+    <color name="logRegExistingUserHeadingTextColor">#0285d4</color>
+    <color name="logRegExistingUserSubTextColor">#000000</color>
+    <color name="logRegNewUserHeadingTextColor">#0285d4</color>
+    <color name="logRegNewUserSubTextColor">#000000</color>
+    <color name="logRegSeparatorLineColor">#eeeeee</color>
+    <color name="activityHeadingTextColor">#000000</color>
+    <color name="activityHeadingBottomLineColor">#02b8f8</color>
+    <color name="instructionTextColor">#000000</color>
+    <color name="hintUnmColor">#000000</color>
+    <color name="etTextColor">#000000</color>
+    <color name="editTextFocusedBottomLineColor">#02b8f8</color>
+    <color name="editTextNotFocusedBottomLineColor">#c6c6c6</color>
+    <color name="hintPwdColor">#919191</color>
+    <color name="pwdTextColor">#919191</color>
+    <color name="termsNotHighlightedColor">#000000</color>
+    <color name="buttonBackColor">#6ac075</color>
+    <color name="buttonTextColor">#ffffff</color>
+    <color name="softKeysBackgroundColor">#9e9e9e</color>
+    <color name="hintNotFocusedColor">#919191</color>
+    <color name="normalTextViewTextColor">#000000</color>
+    <color name="rbNotSelectedColor">#eeeeee</color>
+    <color name="textIndicatorSelectedTextColor">#ffffff</color>
+    <color name="textIndicatorNotSelectedTextColor">#000000</color>
+</resources>
